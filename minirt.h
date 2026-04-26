@@ -8,6 +8,7 @@
 #include "libs/minilibx-linux/mlx.h"
 
 #include <stdint.h>
+#include <stdio.h>
 
 // Window Info
 # define WIDTH 500
@@ -78,7 +79,7 @@ typedef struct s_sphere
 {
 	t_vec3	center;
 	double	radius;
-	t_vec3	color;	
+	t_vec3	color;
 }	t_sphere;
 
 typedef struct s_plane
