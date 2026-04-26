@@ -1,6 +1,6 @@
 NAME := minirt
 CC = @cc
-HEADERS = minirt.h
+HEADERS = libs/minirt.h
 
 MLX_DIR = ./libs/minilibx-linux
 
